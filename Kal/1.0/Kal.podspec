@@ -34,6 +34,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.source       = { :git => "https://github.com/lafosca/Kal.git", :tag => "1.0" }
   s.platform     = :ios, '4.0'
   s.source_files = 'src/*.{h,m}'
+  s.resources    = "src/Kal.bundle/*.png"
   s.framework    = 'UIKit'
   s.requires_arc = false
 end
