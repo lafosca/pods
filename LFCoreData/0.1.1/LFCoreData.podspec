@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   }
 
   s.platform     = :ios, '5.0'
-  s.source_files = 'src/*.h','src/*.m"
+  s.source_files = 'src/*.h','src/*.m'
   s.requires_arc = true
   s.framework    = 'CoreData'
 end
