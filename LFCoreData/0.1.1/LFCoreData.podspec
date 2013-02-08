@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
    s.license      = { :type => 'All rights reserved'}
   s.source       = { 
     :git => "https://github.com/lafosca/LFCoreData.git", 
-    :tag => "0.1"
+    :tag => "0.1.1"
   }
 
   s.platform     = :ios, '5.0'
