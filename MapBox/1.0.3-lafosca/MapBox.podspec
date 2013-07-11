@@ -10,7 +10,7 @@ Pod::Spec.new do |m|
   m.author      = { 'MapBox' => 'ios@mapbox.com' }
   m.screenshot  = 'https://raw.github.com/mapbox/mapbox-ios-sdk/packaging/screenshot.png'
 
-  s.source   = { :git => 'https://github.com/lafosca/mapbox-ios-sdk.git', :tag => '1.0.3-lafosca' }
+  m.source   = { :git => 'https://github.com/lafosca/mapbox-ios-sdk.git', :tag => '1.0.3-lafosca' }
 
   m.platform              = :ios
   m.ios.deployment_target = '5.0'
